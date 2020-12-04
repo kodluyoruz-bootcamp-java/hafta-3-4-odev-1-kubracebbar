@@ -13,8 +13,8 @@ Uygulamamızda 5 adet farklı ülkelerin saatlerini göstereceğiz. Şehirler a�
 - Berlin
 - New Delhi.
 
-1 - Clock diye bir interfacimiz olacak, bu interfacin showTime() diye bir methodu olacaktır. 
-2 - City diye ata bir sınıfımız olacak ve her şehir City sınıfından türeyecek. City'nin hem Clock hem de Comparable davranaşı olacaktır. City sınıfına ait özellikler aşağıdaki gibi olacak. City'lerin 
+1 - Clock diye bir interfacimiz olacak, bu interfacin showTime() diye bir methodu olacaktır.
+2 - City diye ata bir sınıfımız olacak ve her şehir City sınıfından türeyecek. City'nin hem Clock hem de Comparable davranaşı olacaktır. City sınıfına ait özellikler aşağıdaki gibi olacak. City'lerin
   
   - İsmi
   - Şehir kodu ( Bu kod dünya üzerinde her şehire ait unique kod olacaktır. https://www.kwe.co.jp/en/useful-contents/code3 bu adresten bulabilirsiniz)
@@ -26,7 +26,7 @@ Uygulamamızda 5 adet farklı ülkelerin saatlerini göstereceğiz. Şehirler a�
 
 4- Şehirlerimizi isimlerine göre artan şekilde sıralayabilecek şekilde tasarlayacağız.
 5- Uygulama çalıştığında şehirleri isimlerine göre sıralı şekilde kullanıcıya göstererek (Şehir Kodu - Şehir ismi ) kullanıcıdan en az üç en fazla beş olacak  şehir kodu seçmesini isteyeceğiz.
-6- Seçilen her şehir için bir Thread açıp, bu threadde sürekli şehirlerin saatlerini anlık olarak göstereceğiz. 
+6- Seçilen her şehir için bir ThreadRunner açıp, bu threadde sürekli şehirlerin saatlerini anlık olarak göstereceğiz.
 
 NOT: Executor service kullanalım.
 NOT2: Runnable interfacini implemente ederek thread yaratalım

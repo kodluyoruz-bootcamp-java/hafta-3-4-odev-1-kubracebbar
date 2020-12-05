@@ -1,6 +1,3 @@
 public interface Clock {
-
-  void showTime() ;
-
-
+    void showTime();
 }

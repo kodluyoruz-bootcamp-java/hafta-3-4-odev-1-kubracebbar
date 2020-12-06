@@ -1,4 +1,4 @@
-import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.City;
+
 
 public class NewDelhi extends City {
 

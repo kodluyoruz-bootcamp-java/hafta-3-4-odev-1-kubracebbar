@@ -14,6 +14,7 @@ public class ThreadRunner implements Runnable {
                 city.showTime();
                 try {
                     Thread.sleep(6000);
+                    System.exit(0);
                 } catch (Exception ex) {
                 }
             }

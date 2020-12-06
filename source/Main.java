@@ -2,7 +2,7 @@ import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.Berlin;
 import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.City;
 import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.London;
 import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.Moskow;
-
+import Kodluyoruz.odevler.tümü.ucuncu.hafta.versiyon.iki.NewDelhi;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
